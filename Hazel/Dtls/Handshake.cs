@@ -4,7 +4,7 @@ using System.Net;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 
-namespace Impostor.Hazel.Dtls
+namespace Singularity.Hazel.Dtls
 {
     /// <summary>
     /// Handshake message type

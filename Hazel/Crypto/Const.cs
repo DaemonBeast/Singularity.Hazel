@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace Impostor.Hazel.Crypto
+namespace Singularity.Hazel.Crypto
 {
     public static class Const
     {

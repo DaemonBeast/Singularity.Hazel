@@ -3,10 +3,10 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
-using Impostor.Api.Net.Messages;
 using Microsoft.Extensions.ObjectPool;
+using Singularity.Hazel.Api.Net.Messages;
 
-namespace Impostor.Hazel.Udp
+namespace Singularity.Hazel.Udp
 {
     /// <summary>
     ///     Represents a client's connection to a server that uses the UDP protocol.

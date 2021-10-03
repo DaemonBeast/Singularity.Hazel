@@ -1,7 +1,7 @@
 using System;
 using System.Security.Cryptography;
 
-namespace Impostor.Hazel.Crypto
+namespace Singularity.Hazel.Crypto
 {
     public static class SpanCryptoExtensions
     {

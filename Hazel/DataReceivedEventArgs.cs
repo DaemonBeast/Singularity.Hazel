@@ -1,6 +1,6 @@
-﻿using Impostor.Api.Net.Messages;
+﻿using Singularity.Hazel.Api.Net.Messages;
 
-namespace Impostor.Hazel
+namespace Singularity.Hazel
 {
     public struct DataReceivedEventArgs
     {

@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.ObjectPool;
 
-namespace Impostor.Hazel.Extensions
+namespace Singularity.Hazel.Extensions
 {
     public static class ServiceProviderExtensions
     {

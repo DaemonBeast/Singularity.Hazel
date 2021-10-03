@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.ObjectPool;
 
-namespace Impostor.Hazel
+namespace Singularity.Hazel
 {
     public class MessageReaderPolicy : IPooledObjectPolicy<MessageReader>
     {

@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using Impostor.Api.Net.Messages;
+using Singularity.Hazel.Api.Net.Messages;
 
-namespace Impostor.Hazel.Udp
+namespace Singularity.Hazel.Udp
 {
     partial class UdpConnection
     {

@@ -1,4 +1,4 @@
-﻿namespace Impostor.Hazel
+﻿namespace Singularity.Hazel
 {
     /// <summary>
     ///     Represents the state a <see cref="Connection"/> is currently in.

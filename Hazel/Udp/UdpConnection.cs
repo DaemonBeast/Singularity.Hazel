@@ -2,11 +2,11 @@ using System;
 using System.Threading;
 using System.Threading.Channels;
 using System.Threading.Tasks;
-using Impostor.Api.Net.Messages;
 using Microsoft.Extensions.ObjectPool;
 using Serilog;
+using Singularity.Hazel.Api.Net.Messages;
 
-namespace Impostor.Hazel.Udp
+namespace Singularity.Hazel.Udp
 {
     /// <summary>
     ///     Represents a connection that uses the UDP protocol.

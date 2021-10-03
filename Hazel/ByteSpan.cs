@@ -1,6 +1,6 @@
 using System;
 
-namespace Impostor.Hazel
+namespace Singularity.Hazel
 {
     /// <summary>
     /// This is a minimal implementation of `System.Span` in .NET 5.0

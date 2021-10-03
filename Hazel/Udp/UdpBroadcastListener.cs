@@ -4,7 +4,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
-namespace Impostor.Hazel.Udp
+namespace Singularity.Hazel.Udp
 {
     public class BroadcastPacket
     {

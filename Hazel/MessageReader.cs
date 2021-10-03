@@ -3,14 +3,11 @@ using System.Buffers.Binary;
 using System.Numerics;
 using System.Runtime.CompilerServices;
 using System.Text;
-using Impostor.Api;
-using Impostor.Api.Games;
-using Impostor.Api.Net.Inner;
-using Impostor.Api.Net.Messages;
-using Impostor.Api.Unity;
 using Microsoft.Extensions.ObjectPool;
+using Singularity.Hazel.Api.Net.Messages;
+using Singularity.Hazel.Api.Unity;
 
-namespace Impostor.Hazel
+namespace Singularity.Hazel
 {
     public class MessageReader : IMessageReader
     {
@@ -72,27 +69,6 @@ namespace Impostor.Hazel
             var reader = _pool.Get();
             reader.Update(Buffer, pos, 0, length, tag, this);
             return reader;
-        }
-
-        public void RemoveMessage(IMessageReader message)
-        {
-            if (message.Buffer != Buffer)
-            {
-                throw new ImpostorProtocolException("Tried to remove message from a message that does not have the same buffer.");
-            }
-
-            // Offset of where to start removing.
-            var offsetStart = message.Offset - 3;
-
-            // Offset of where to end removing.
-            var offsetEnd = message.Offset + message.Length;
-
-            // The amount of bytes to copy over ourselves.
-            var lengthToCopy = message.Buffer.Length - offsetEnd;
-
-            System.Buffer.BlockCopy(Buffer, offsetEnd, Buffer, offsetStart, lengthToCopy);
-
-            ((MessageReader) message).Parent.AdjustLength(message.Offset, message.Length + 3);
         }
 
         public void InsertMessage(IMessageReader reader, IMessageWriter writer)
@@ -254,11 +230,6 @@ namespace Impostor.Hazel
             }
 
             return output;
-        }
-
-        public T ReadNetObject<T>(IGame game) where T : IInnerNetObject
-        {
-            return game.FindObjectByNetId<T>(ReadPackedUInt32());
         }
 
         public Vector2 ReadVector2()

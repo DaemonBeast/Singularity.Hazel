@@ -3,7 +3,7 @@ using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 
-namespace Impostor.Hazel.UPnP
+namespace Singularity.Hazel.UPnP
 {
     internal class NetUtility
     {

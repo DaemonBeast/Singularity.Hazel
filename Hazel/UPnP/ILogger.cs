@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Impostor.Hazel.UPnP
+namespace Singularity.Hazel.UPnP
 {
     public interface ILogger
     {

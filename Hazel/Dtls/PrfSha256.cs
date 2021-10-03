@@ -1,7 +1,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Impostor.Hazel.Dtls
+namespace Singularity.Hazel.Dtls
 {
     /// <summary>
     /// Common Psuedorandom Function labels for TLS

@@ -1,6 +1,6 @@
 using System;
 
-namespace Impostor.Hazel.Dtls
+namespace Singularity.Hazel.Dtls
 {
     /// <summary>
     /// DTLS cipher suite interface for the handshake portion of

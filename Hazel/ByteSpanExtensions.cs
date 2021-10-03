@@ -1,4 +1,4 @@
-namespace Impostor.Hazel
+namespace Singularity.Hazel
 {
     /// <summary>
     /// Extension functions for (en/de)coding integer values

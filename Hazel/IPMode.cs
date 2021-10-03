@@ -1,4 +1,4 @@
-﻿namespace Impostor.Hazel
+﻿namespace Singularity.Hazel
 {
     /// <summary>
     ///     Represents the IP version that a connection or listener will use.

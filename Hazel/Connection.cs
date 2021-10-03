@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Net;
 using System.Threading.Tasks;
-using Impostor.Api.Net.Messages;
 using Serilog;
+using Singularity.Hazel.Api.Net.Messages;
 
-namespace Impostor.Hazel
+namespace Singularity.Hazel
 {
     /// <summary>
     ///     Base class for all connections.

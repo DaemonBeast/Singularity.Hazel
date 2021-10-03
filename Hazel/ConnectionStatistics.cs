@@ -1,6 +1,6 @@
 ﻿using System.Threading;
 
-namespace Impostor.Hazel
+namespace Singularity.Hazel
 {
     /// <summary>
     ///     Holds statistics about the traffic through a <see cref="Connection"/>.

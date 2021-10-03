@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Impostor.Hazel
+namespace Singularity.Hazel
 {
     /// <summary>
     ///     Abstract base class for a <see cref="ConnectionListener"/> for network based connections.

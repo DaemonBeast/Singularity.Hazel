@@ -1,9 +1,9 @@
 using System;
 using System.Diagnostics;
 using System.Security.Cryptography;
-using Impostor.Hazel.Crypto;
+using Singularity.Hazel.Crypto;
 
-namespace Impostor.Hazel.Dtls
+namespace Singularity.Hazel.Dtls
 {
     /// <summary>
     /// ECDHE_RSA_*_256 cipher suite

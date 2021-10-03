@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using System.Net;
 using System.Numerics;
 using System.Text;
-using Impostor.Api.Games;
-using Impostor.Api.Net.Inner;
-using Impostor.Api.Net.Messages;
-using Impostor.Api.Unity;
+using Singularity.Hazel.Api.Net.Messages;
+using Singularity.Hazel.Api.Unity;
 
-namespace Impostor.Hazel
+namespace Singularity.Hazel
 {
     public class MessageWriter : IMessageWriter, IRecyclable
     {
@@ -331,23 +329,6 @@ namespace Impostor.Hazel
         public void Write(IPAddress value)
         {
             this.Write(value.GetAddressBytes());
-        }
-
-        public void Write(GameCode value)
-        {
-            this.Write(value.Value);
-        }
-
-        public void Write(IInnerNetObject innerNetObject)
-        {
-            if (innerNetObject == null)
-            {
-                this.Write(0);
-            }
-            else
-            {
-                this.WritePacked(innerNetObject.NetId);
-            }
         }
 
         public void Write(Vector2 vector)

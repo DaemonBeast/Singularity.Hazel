@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Security.Cryptography;
 
-namespace Impostor.Hazel.Crypto
+namespace Singularity.Hazel.Crypto
 {
     /// <summary>
     /// Implementation of AEAD_AES128_GCM based on:

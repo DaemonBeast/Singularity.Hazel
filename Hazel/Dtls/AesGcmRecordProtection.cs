@@ -1,7 +1,7 @@
 using System.Diagnostics;
-using Impostor.Hazel.Crypto;
+using Singularity.Hazel.Crypto;
 
-namespace Impostor.Hazel.Dtls
+namespace Singularity.Hazel.Dtls
 {
     /// <summary>
     /// *_AES_128_GCM_* cipher suite

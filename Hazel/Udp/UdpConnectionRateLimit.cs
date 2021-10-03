@@ -4,7 +4,7 @@ using System.Net;
 using System.Threading;
 using Serilog;
 
-namespace Impostor.Hazel.Udp
+namespace Singularity.Hazel.Udp
 {
     public class UdpConnectionRateLimit : IDisposable
     {

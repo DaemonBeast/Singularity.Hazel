@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Impostor.Hazel
+namespace Singularity.Hazel
 {
     public enum HazelInternalErrors
     {

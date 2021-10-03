@@ -1,4 +1,4 @@
-﻿namespace Impostor.Hazel
+﻿namespace Singularity.Hazel
 {
     /// <summary>
     ///     Interface for all items that can be returned to an object pool.

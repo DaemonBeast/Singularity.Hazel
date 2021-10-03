@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.ObjectPool;
 using Serilog;
 
-namespace Impostor.Hazel.Udp
+namespace Singularity.Hazel.Udp
 {
     /// <summary>
     ///     Listens for new UDP connections and creates UdpConnections for them.

@@ -1,4 +1,4 @@
-﻿namespace Impostor.Hazel.Udp
+﻿namespace Singularity.Hazel.Udp
 {
     /// <summary>
     ///     Extra internal states for SendOption enumeration when using UDP.

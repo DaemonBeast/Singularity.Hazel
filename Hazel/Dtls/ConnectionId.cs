@@ -1,7 +1,7 @@
 using System;
 using System.Net;
 
-namespace Impostor.Hazel.Dtls
+namespace Singularity.Hazel.Dtls
 {
     public struct ConnectionId : IEquatable<ConnectionId>
     {

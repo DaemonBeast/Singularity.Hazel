@@ -5,7 +5,7 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Xml;
 
-namespace Impostor.Hazel.UPnP
+namespace Singularity.Hazel.UPnP
 {
     /// <summary>
     /// Status of the UPnP capabilities

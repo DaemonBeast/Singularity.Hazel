@@ -1,4 +1,4 @@
-namespace Impostor.Hazel.Dtls
+namespace Singularity.Hazel.Dtls
 {
     /// <summary>
     /// Passthrough record protection implementaion
