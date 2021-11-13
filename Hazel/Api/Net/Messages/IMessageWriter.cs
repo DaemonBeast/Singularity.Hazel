@@ -67,6 +67,18 @@ namespace Singularity.Hazel.Api.Net.Messages
         /// </summary>
         /// <param name="value">Value to write.</param>
         void Write(int value);
+        
+        /// <summary>
+        ///     Writes a ulong to the message.
+        /// </summary>
+        /// <param name="value">Value to write.</param>
+        void Write(ulong value);
+        
+        /// <summary>
+        ///     Writes a long to the message.
+        /// </summary>
+        /// <param name="value">Value to write.</param>
+        void Write(long value);
 
         /// <summary>
         ///     Writes a float to the message.

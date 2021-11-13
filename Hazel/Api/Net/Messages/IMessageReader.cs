@@ -48,6 +48,10 @@ namespace Singularity.Hazel.Api.Net.Messages
 
         int ReadInt32();
 
+        ulong ReadUInt64();
+
+        long ReadInt64();
+
         float ReadSingle();
 
         string ReadString(int length);
