@@ -1,6 +1,7 @@
 ﻿using System;
+using Singularity.Hazel;
 
-namespace Impostor.Hazel.Crypto
+namespace Singularity.Hazel.Crypto
 {
     /// <summary>
     /// AES encryption interface

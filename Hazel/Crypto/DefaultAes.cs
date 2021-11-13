@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Security.Cryptography;
+using Singularity.Hazel;
 
-namespace Impostor.Hazel.Crypto
+namespace Singularity.Hazel.Crypto
 {
     /// <summary>
     /// AES provider using the default System.Security.Cryptography implementation
